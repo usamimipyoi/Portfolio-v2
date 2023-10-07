@@ -13,15 +13,25 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+        <Col md="5" className="footer-copywright">
+          <h3>Designed by &nbsp;
+          <a 
+            href="https://github.com/soumyajit4419/Portfolio"
+            style={{ color: "white" }}
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+          Soumyajit Behera
+          </a>
+          </h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        <Col md="3" className="footer-body">
           <ul className="footer-icons">
-            <li className="social-icons">
+            <h3>Edit by me.</h3>
+            {/* <li className="social-icons">
               <a
                 href="https://github.com/soumyajit4419"
                 style={{ color: "white" }}
@@ -60,7 +70,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>
