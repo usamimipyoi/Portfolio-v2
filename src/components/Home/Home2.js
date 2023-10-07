@@ -19,16 +19,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I didn't know much about coding before, but someone suggest me about CS50x course, everything seem fun, and now I am here. 
+              I didn't know much about coding before taking CS50x course, apply for JSD bootcamp because I wanna learn with other. 
               <br />
               <br />
-              I am fluent in 
+              Currently I am fluent in 
               <i>
-                <b className="purple"> HTML, CSS, Javascript. </b>
+                <b className="purple"> HTML, CSS, Javascript, Node.js </b>
               </i>
-              <br />
-              <br />
-              I can apply my skill to work with <b className="purple">Node.js</b> and
+              and
               <i>
                 <b className="purple">
                   {" "}
@@ -66,7 +64,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/usamimipyoi"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,7 +84,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/phurich-twy/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

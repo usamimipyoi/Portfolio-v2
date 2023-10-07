@@ -44,6 +44,17 @@ function Home() {
               <p className="text-center">
                 example image of me while coding
               </p>
+              <p className="text-center">
+                credit :&nbsp;
+                <a 
+                  href="https://www.youtube.com/user/nevercakegames"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                Nevercake
+                </a>
+              </p>
             </Col>
           </Row>
         </Container>
