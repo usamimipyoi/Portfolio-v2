@@ -398,6 +398,31 @@ button:focus {
   color: #700c86 !important;
 }
 
+.home-form {
+  color: white !important;
+  margin-bottom: 3em;
+  font-size: 1.4em !important;
+}
+
+.home-form-input{
+  border-radius:6px;
+  width: 100%;
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  min-height: 6em;
+}
+
+.home-form-btn{
+  width: 10em
+}
+
+.home-form-row{
+  padding-bottom: 0.3em;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
