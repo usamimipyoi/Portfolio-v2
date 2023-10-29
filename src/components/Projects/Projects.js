@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import colmar from "../../Assets/Projects/project-colmar.png";
 import findHat from "../../Assets/Projects/project-findhat.png"
+import fitness from "../../Assets/Projects/project-fitness.png"
 
 function Projects() {
   return (
@@ -17,6 +18,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fitness}
+              isBlog={false}
+              title="Fitness app"
+              description="Capstone project from JSD 5, a lot of bug still there, I will fix it later .w.)''"
+              ghLink="https://github.com/Group-Project-9/Fontend"
+              demoLink="https://fontend-rho.vercel.app/login"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={findHat}
